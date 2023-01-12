@@ -4,48 +4,48 @@ import { useState } from "react";
 
 const QUIZ_QUESTIONS = [
   {
-    Question: "Which is the largest of all sharks?",
+    Question: "Which is the fastest version of fencing?",
     Answers: [
-      { Answer: "Great White Shark", isCorrect: false },
-      { Answer: "Whale Shark", isCorrect: true },
-      { Answer: "Bull Shark", isCorrect: false },
-      { Answer: "Tiger Shark", isCorrect: false },
+      { Answer: "Foil", isCorrect: false },
+      { Answer: "Sabre", isCorrect: true },
+      { Answer: "Épée", isCorrect: false },
+      { Answer: "Running to the bathroom", isCorrect: false },
     ],
   },
   {
-    Question: "Sharks have existed for approximately how long?",
+    Question: "Evidence of sword fights goes back approximately how long?",
     Answers: [
-      { Answer: "350 Million Years", isCorrect: true },
-      { Answer: "10000 Years", isCorrect: false },
-      { Answer: "1 Million Years", isCorrect: false },
-      { Answer: "10 Million Years", isCorrect: false },
+      { Answer: "3000 Years", isCorrect: true },
+      { Answer: "Yesterday, I just learned about this!", isCorrect: false },
+      { Answer: "200 Years", isCorrect: false },
+      { Answer: "1000 Years", isCorrect: false },
     ],
   },
   {
-    Question: "What unusual thing can the bull shark do?",
+    Question: "How long is the piste (playing area)?",
     Answers: [
-      { Answer: "Survive in fresh water", isCorrect: true },
-      { Answer: "Survive out of fresh water", isCorrect: false },
-      { Answer: "Eat seaweed", isCorrect: false },
-      { Answer: "Talk", isCorrect: false },
+      { Answer: "14 metres", isCorrect: true },
+      { Answer: "12 metres", isCorrect: false },
+      { Answer: "23 metres", isCorrect: false },
+      { Answer: "I get tired thinking about it", isCorrect: false },
     ],
   },
   {
-    Question: "What are baby sharks called?",
+    Question: "Which discipline has been in the Olympics the longest?",
     Answers: [
-      { Answer: "Cubs", isCorrect: false },
-      { Answer: "Sharklings", isCorrect: false },
-      { Answer: "Fry", isCorrect: false },
-      { Answer: "Pups", isCorrect: true },
+      { Answer: "Foil", isCorrect: false },
+      { Answer: "Épée", isCorrect: false },
+      { Answer: "Yelling", isCorrect: false },
+      { Answer: "Sabre", isCorrect: true },
     ],
   },
   {
-    Question: "What are shark skeletons made of?",
+    Question: "What are the blades made of?",
     Answers: [
-      { Answer: "Bone", isCorrect: false },
-      { Answer: "Cartilage", isCorrect: true },
-      { Answer: "Keratin", isCorrect: false },
-      { Answer: "They don't have a team", isCorrect: false },
+      { Answer: "Baguettes", isCorrect: false },
+      { Answer: "Steel", isCorrect: true },
+      { Answer: "Plastic", isCorrect: false },
+      { Answer: "Ceramic", isCorrect: false },
     ],
   },
 ];
@@ -75,7 +75,7 @@ const Quiz = () => {
     <main className="bg-normal bg-no-repeat bg-cover bg-fixed w-full flex items-center justify-center min-h-screen text-white relative">
       <Navbar />
       <section className="w-screen h-screen grid place-content-center sm:px-4">
-        <div className="flex flex-col w-[43rem] bg-blue-400 rounded-3xl items-center justify-between bg-gradient-to-t from-[#07394B]/40 to-[#091B24]/30 border-[#6EE9FF] border-2 bg-[#064550]/40 mt-8 sm:w-[20rem] md:max-w-[90vw]">
+        <div className="flex flex-col w-[43rem] bg-red-400 rounded-3xl items-center justify-between bg-gradient-to-t from-[#07394B]/40 to-[#091B24]/30 border-[#6EE9FF] border-2 bg-[#064550]/40 mt-8 sm:w-[20rem] md:max-w-[90vw]">
           <h3 className="p-4 text-4xl text-[#CDEFFF] border-[#6EE9FF] border-b-2 w-full font-semibold text-center sm:text-2xl md:px-6 ">
             Quiz Time
           </h3>
@@ -85,11 +85,11 @@ const Quiz = () => {
                 You have scored {score} out of {QUIZ_QUESTIONS.length}
               </p>
               <button
-                className="bg-[#1F78A1] font-semibold px-24 py-2 rounded-md border-[1px] mt-8 hover:bg-[#165370] duration-300"
+                className="bg-[#AF0000] font-semibold px-24 py-2 rounded-md border-[1px] mt-8 hover:bg-[#160000] duration-300"
                 type="submit"
                 onClick={resetQuiz}
               >
-                Play Again!!
+                Play Again!
               </button>
             </div>
           ) : (

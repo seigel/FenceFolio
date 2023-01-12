@@ -1,4 +1,4 @@
-import sharkfact from "../assets/sharkfact.png";
+import sharkfact from "../assets/foil-fencing-championships-dalle.png";
 
 const FunFacts2 = ({facts}) => {
     return (
@@ -9,7 +9,7 @@ const FunFacts2 = ({facts}) => {
                 </div>
                 <div className="flex w-[35vw] flex-col justify-self-end items-center justify-center text-center">
                     <h1 className="font-bold text-[40px] text-white facts opacity-0 -translate-x-24" >{ facts }</h1>
-                    <a href="https://www.fisheries.noaa.gov/feature-story/12-shark-facts-may-surprise-you" className="underline text-white links opacity-0 -translate-x-24" >Know More</a>
+                    <a href="https://olympics.com/en/news/everything-you-need-to-know-about-fencing-the-equipment-the-weapons-the-athletes" className="underline text-white links opacity-0 -translate-x-24" >Know More</a>
                 </div>
             </div>
         </section>

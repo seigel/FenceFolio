@@ -37,16 +37,13 @@ const Funfacts = () => {
     return (
         <main className="w-full flex-col flex bg-fixed bg-normal bg-no-repeat bg-cover items-center justify-center min-h-screen text-white relative overflow-hidden" ref={main}>
             <Navbar />
-            <FunFacts1 facts="Sharks do not have bones." />
-            <FunFacts2 facts="Most sharks have good eyesight." />
-            <FunFacts1 facts="Sharks have special electroreceptor organs." />
-            <FunFacts2 facts="Shark skin feels similar to sandpaper." />
-            <FunFacts1 facts="Sharks can go into a trance." />
-            <FunFacts2 facts="Sharks have special electroreceptor organs." />
-            <FunFacts1 facts="Sharks have been around a very long time." />
-            <FunFacts2 facts="Scientists age sharks by counting the rings on their vertebrae." />
-            <FunFacts1 facts="Blue sharks are really blue." />
-            <FunFacts2 facts="Each whale shark's spot pattern is unique as a fingerprint." />
+            <FunFacts1 facts="Most words describing fencing are french." />
+            <FunFacts2 facts="Respect through saluting is an important part of the sport." />
+            <FunFacts1 facts="There are three weapons or disciplines withing the sport of fencing." />
+            <FunFacts2 facts="Fencing is one of the oldest sports in the Olympics." />
+            <FunFacts1 facts="Fencing is ironically one of the safest sports that is done in the Olympics." />
+            <FunFacts2 facts="Épée would be the closest thing to a real duel that exists today." />
+            <FunFacts1 facts="Coloured cards, like in soccer, help communicate severity of infractions." />
         </main>
     );
 }

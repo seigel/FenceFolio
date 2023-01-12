@@ -44,24 +44,24 @@ const Home = () => {
               Welcome to
             </h3>
             <h1
-              className="bg-gradient-to-b from-[#8DFBFF] to-[#308EC7] bg-clip-text text-8xl font-bold text-transparent -translate-x-20 opacity-0 sm:text-6xl md:8xl md:bg-red-400"
+              className="bg-gradient-to-b from-[#FFF] to-[#FF0000] bg-clip-text text-8xl font-bold text-transparent -translate-x-20 opacity-0 sm:text-6xl md:8xl md:bg-red-400"
               ref={shark}
             >
-              Shark World
+              Epic Fencing
             </h1>
           </div>
           <p
-            className="text-md text-teal-200/50 font-light text-center w-1/2 opacity-0 -translate-x-20 sm:w-3/4 md:w-3/4 lg:w-3/4 "
+            className="text-md text-red-200/50 font-light text-center w-1/2 opacity-0 -translate-x-20 sm:w-3/4 md:w-3/4 lg:w-3/4 "
             ref={paragraph}
           >
-            We welcome you to the fun and amazing world of Sharks. Here you can
-            learn about different type of sharks and also play a mini quiz game.
+            We welcome you to the fun and amazing world of fencing. Here you can
+            learn about different types of fencing and also take a mini quiz!.
           </p>
           <a
-            href="/#/sharksinfo"
-            className="bg-[#1F78A1]/20 text-white/80 font-normal tracking-wide px-24 py-2 rounded-md border-[1px] border-[#165370] mt-8 hover:bg-[#165370] duration-300 shake-on-hover"
+            href="https://www.epicfencing.ca"
+            className="bg-[#9F0000]/20 text-white/80 font-normal tracking-wide px-24 py-2 rounded-md border-[1px] border-[#ff0000] mt-8 hover:bg-[#160000] duration-300 shake-on-hover"
           >
-            Explore
+            Start your Journey Here!
           </a>
         </div>
       </section>

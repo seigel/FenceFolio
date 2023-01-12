@@ -22,8 +22,9 @@ module.exports = {
     extend: {
       backgroundImage: {
         normal:
-          "linear-gradient(to bottom, rgba(7, 57, 75, 0.5), rgba(9, 27, 36, 0.8)), url('/bg-sharks-world.jpg')",
-        main: "linear-gradient(to bottom, rgba(7, 57, 75, 0.2), rgba(9, 27, 36, 0.2)), url('/shark.png')",
+        "linear-gradient(to bottom, rgba(77, 57, 75, 0.5), rgba(77, 27, 36, 0.8)), url('/nathanael-desmeules-iI_6_Z1VodQ-unsplash.jpg')",
+        // "linear-gradient(to bottom, rgba(7, 0, 0, 0.5), rgba(9, 0, 0, 0.8)), url('/bg-sharks-world.jpg')",
+        main: "linear-gradient(to bottom, rgba(77, 57, 75, 0.2), rgba(77, 27, 36, 0.2)), url('/micaela-parente-YGgKE6aHaUw-unsplash.jpg')",
       },
       fontFamily: {
         Berkshire: ["Berkshire Swash", "cursive"],
